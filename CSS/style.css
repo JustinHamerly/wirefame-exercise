@@ -38,7 +38,7 @@ header li {
 }
 
 section img {
-  margin 30px;
+  margin: 30px;
 }
 
 section{
@@ -111,20 +111,21 @@ p {
 }
 
 .navbutton {
-  height: 50px;
-  width: 150px;
   background-color: #444444;
   color: lightgray;
   border: none;
+  padding: 10px;
   transition-duration: .25s;
+  text-decoration: none;
+  border-radius: 3px;
 }
 
 .navbutton:hover {
   background-color: lightgray;
-  color: black;
+  color: #444444;
 }
 
-section button {
+#sectionThree button {
   height: 50px;
   width: 200px;
   margin-top: 15px;
