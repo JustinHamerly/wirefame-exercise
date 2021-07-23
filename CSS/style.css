@@ -6,13 +6,18 @@ h3 {
   font-size: large;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 header {
   display: flex;
   flex-direction: row;
   width: 100%;
   height: 100px;
   align-items: center;
-  justify-content: space-between;  
+  justify-content: flex-start;  
   background-color: #444444;
   color: lightgray;
   min-width: 1000px;
@@ -37,12 +42,9 @@ header li {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-section img {
-  margin: 30px;
-}
-
 section{
-  margin:30px;
+  margin-top: 30px;
+  width: 960px
 }
 
 #firstSection{
@@ -52,11 +54,12 @@ section{
 
 #secondSection{
   display:flex;
-  justify-content: center;
+  justify-content: space-between;
+  height: 375px;
 }
 
 #secondSection img {
-  margin: 15px;
+  margin: 0px;
   width: 300px;
   height: 375px;
 }
@@ -64,7 +67,7 @@ section{
 #thirdSection {
   display: flex;
   flex-direction:row;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 #thirdSection div {
@@ -72,8 +75,8 @@ section{
   flex-direction: column;
   width: 420px;
   height:400px;
-  margin-left: 60px;
   align-content: space-between;
+  justify-content: space-between;
 }
 
 h3 {
@@ -85,7 +88,7 @@ p {
   text-justify: auto; 
   width: 420px;
   font-size: medium;
-  height: 100%;
+  height: 300px;
   overflow: scroll;
   overflow-x: hidden;
 }
@@ -120,6 +123,17 @@ p {
   border-radius: 3px;
 }
 
+button {
+  background-color: black;
+  color: lightgray;
+  border: none;
+  height: 50px;
+  width: 200px;
+  margin-top: 15px;
+  padding: 10px;
+  text-decoration: none;
+}
+
 .navbutton:hover {
   background-color: lightgray;
   color: #444444;
@@ -136,6 +150,7 @@ p {
 footer {
   width: 100%;
   height: 150px;
+  margin-top: 30px;
   align-items: center; 
   background-color: #444444;
 }
