@@ -43,31 +43,11 @@ header li {
 }
 
 section{
-  margin-top: 30px;
-  width: 960px
-}
-
-#firstSection{
-  display:flex;
-  justify-content: center;
-}
-
-#secondSection{
-  display:flex;
-  justify-content: space-between;
-  height: 375px;
-}
-
-#secondSection img {
-  margin: 0px;
-  width: 300px;
-  height: 375px;
-}
-
-#thirdSection {
   display: flex;
   flex-direction:row;
   justify-content: space-between;
+  margin-top: 30px;
+  width: 960px
 }
 
 #thirdSection div {
@@ -86,11 +66,12 @@ h3 {
 p {
   color: #444444;
   text-justify: auto; 
-  width: 420px;
+  width: 100%;
   font-size: medium;
   height: 300px;
   overflow: scroll;
   overflow-x: hidden;
+  text-align: justify;
 }
 
 ::-webkit-scrollbar {
@@ -98,11 +79,11 @@ p {
 }
 
 ::-webkit-scrollbar-track {
-  background: rgb(179, 177, 177);
+  background: white;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #444444;
+  background: white;
 }
 
 ::-webkit-scrollbar-thumb:hover {
